@@ -52,7 +52,7 @@ function Pricing() {
                 Manager
               </li>
               <li>
-                <FaTimes className="icon not-available" /> Weekly Progress
+                <FaTimes className="icon not-available" /> Monthly Progress
                 Reports
               </li>
               <li>
@@ -104,19 +104,18 @@ function Pricing() {
                 <FaCheck className="icon" /> Unlimited data storage
               </li>
               <li>
-                <FaTimes className="icon not-available" />
-                Dedicated Account Manager
+                <FaTimes className="icon not-available" /> Dedicated Account
+                Manager
               </li>
               <li>
                 <FaTimes className="icon not-available" /> Monthly Progress
                 Reports
               </li>
               <li>
-                <FaTimes className="icon not-available" /> Enhanced SEO
-                Optimization
+                <FaTimes className="icon not-available" /> SEO Optimization
               </li>
               <li>
-                <FaTimes className="icon not-available" /> Quarterly Strategy
+                <FaTimes className="icon not-available" /> Monthly Strategy
                 Sessions
               </li>
             </ul>
@@ -167,7 +166,7 @@ function Pricing() {
                 <FaCheck className="icon" /> Weekly Progress Reports
               </li>
               <li>
-                <FaCheck className="icon" /> Comprehensive SEO Optimization
+                <FaCheck className="icon" /> SEO Optimization
               </li>
               <li>
                 <FaCheck className="icon" /> Monthly Strategy Sessions

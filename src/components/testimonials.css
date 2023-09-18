@@ -1,0 +1,101 @@
+/* testimonials.css */
+.testimonials {
+  background-color: #f8f8f8;
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.slick-slider {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+/* Customize dot styling */
+.slick-dots {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+  position: relative;
+}
+
+.slick-dots li button {
+  font-size: 16px;
+  line-height: 16px;
+  border: none;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.slick-dots li button:before {
+  content: "•";
+  font-size: 18px;
+  color: #ccc;
+  transition: all 0.3s ease;
+  opacity: 0.7;
+}
+
+.slick-dots li.slick-active button:before {
+  content: "•";
+  color: #007bff; /* Change to your desired active dot color */
+  opacity: 1;
+  font-size: 20px;
+  transform: scale(1.2); /* Increase size for active dot */
+  margin-top: -2px; /* Adjust vertical alignment */
+}
+
+.testimonial-item {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-text {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.testimonial-author {
+  font-size: 14px;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.testimonial-title,
+.testimonial-company {
+  color: #777;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
