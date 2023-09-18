@@ -1,14 +1,15 @@
 /* Pricing Section */
 .pricing {
-  background-color: #f8f9fa; /* Background color of the section */
+  background-color: #220e3f; /* Background color of the section */
   padding: 80px 0;
   text-align: center;
 }
 
 .pricing h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  color: #fff;
 }
 
 /* Pricing Cards */
@@ -19,33 +20,51 @@
 }
 
 .pricing-card {
-  max-width: 300px;
+  width: 100%;
   background-color: #fff;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px); /* Lift card on hover */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
 
 .pricing-card h3 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #220e3f; /* Title color */
 }
 
-.pricing-card p {
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin-top: 20px;
+  color: #220e3f; /* Price color */
+}
+
+.price .dollar-sign {
+  margin-right: 8px;
   font-size: 1.2rem;
-  margin-bottom: 20px;
 }
 
 .pricing-card ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  text-align: left;
+  margin: 10px 40px;
 }
 
 .pricing-card li {
   margin: 10px 0;
+  color: #777; /* List item text color */
 }
 
 .pricing-card button {
@@ -53,14 +72,63 @@
   color: #fff; /* Button text color */
   border: none;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 12px 24px; /* Increased padding for a modern look */
   cursor: pointer;
   transition: background-color 0.3s;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .pricing-card button:hover {
   background-color: #0056b3; /* Button background color on hover */
 }
+
+.icon {
+  color: green;
+}
+
+.not-available {
+  color: red;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.toggle-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+  margin-right: 10px; /* Adjust spacing between button and text */
+}
+
+.toggle-button.yearly {
+  background-color: #28a745;
+}
+
+.toggle-text {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-text span {
+  font-weight: bold;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.toggle-text .inactive {
+  opacity: 0.5; /* Style inactive text with reduced opacity */
+}
+
+/* Add any other styling as needed */
 
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -69,7 +137,7 @@
   }
 
   .pricing h2 {
-    font-size: 1.5rem; /* Reduce font size for smaller screens */
+    font-size: 2rem; /* Reduce font size for smaller screens */
   }
 
   .pricing-cards {

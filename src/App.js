@@ -8,6 +8,8 @@ import AboutUs from "./components/Aboutus";
 import Services from "./components/Services";
 import Blog from "./components/Blog";
 import Pricing from "./components/Pricing";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Services />
       <Blog />
       <Pricing />
+      <Contact />
+      <Footer />
     </div>
   );
 }
