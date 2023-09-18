@@ -6,9 +6,10 @@
 }
 
 .blog h2 {
-  font-size: 2rem;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 20px;
+  color: #333;
 }
 
 /* Blog Post Items */
@@ -27,6 +28,9 @@
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .blog-image {
@@ -37,7 +41,7 @@
 }
 
 .blog-post h3 {
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: bold;
   margin-top: 20px;
 }

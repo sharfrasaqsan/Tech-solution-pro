@@ -32,7 +32,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#about">
-                About Us
+                About us
               </a>
             </li>
             <li className="nav-item">
@@ -51,8 +51,13 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link" href="/pricing">
+                Testimonials
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="#contact">
-                Contact
+                Contact us
               </a>
             </li>
             <li className="nav-item">

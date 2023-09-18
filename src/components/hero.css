@@ -1,17 +1,17 @@
 /* Hero */
 .hero {
   color: #fff; /* Text color */
-  padding: 200px 0;
+  padding: 225px 0;
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 54px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
 .hero p {
-  font-size: 1.2rem;
+  font-size: 20px;
   margin-bottom: 30px;
 }
 

@@ -10,7 +10,7 @@
 }
 
 .testimonials h2 {
-  font-size: 28px;
+  font-size: 30px;
   color: #333;
   margin-bottom: 40px;
 }
@@ -23,7 +23,7 @@
 /* Customize dot styling */
 .slick-dots {
   text-align: center;
-  margin-top: 0;
+  bottom: -30px;
 }
 
 .slick-dots li {
@@ -81,11 +81,14 @@
 .testimonial-name {
   font-weight: bold;
   margin-bottom: 4px;
+  font-size: 20px;
 }
 
 .testimonial-title,
 .testimonial-company {
   color: #777;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 /* Responsive styles */

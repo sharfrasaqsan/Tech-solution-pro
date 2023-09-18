@@ -7,13 +7,13 @@
 }
 
 .contact h2 {
-  font-size: 32px;
+  font-size: 30px;
   margin-bottom: 20px;
   color: #333;
 }
 
 .contact p {
-  font-size: 18px;
+  font-size: 16px;
   color: #333;
   margin-bottom: 30px;
 }
@@ -34,7 +34,7 @@
 
 .contact-form label {
   display: block;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 8px;
 }
 
@@ -56,7 +56,7 @@
 .contact-form button[type="submit"] {
   background-color: #007bff;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
