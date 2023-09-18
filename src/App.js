@@ -5,6 +5,9 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import AboutUs from "./components/Aboutus";
+import Services from "./components/Services";
+import Blog from "./components/Blog";
+import Pricing from "./components/Pricing";
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
       <Navbar />
       <HeroSection />
       <AboutUs />
+      <Services />
+      <Blog />
+      <Pricing />
     </div>
   );
 }

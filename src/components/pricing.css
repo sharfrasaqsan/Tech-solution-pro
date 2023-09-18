@@ -1,0 +1,83 @@
+/* Pricing Section */
+.pricing {
+  background-color: #f8f9fa; /* Background color of the section */
+  padding: 80px 0;
+  text-align: center;
+}
+
+.pricing h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Pricing Cards */
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.pricing-card {
+  max-width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.pricing-card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.pricing-card p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pricing-card li {
+  margin: 10px 0;
+}
+
+.pricing-card button {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pricing-card button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .pricing {
+    padding: 60px 0; /* Adjust padding for smaller screens */
+  }
+
+  .pricing h2 {
+    font-size: 1.5rem; /* Reduce font size for smaller screens */
+  }
+
+  .pricing-cards {
+    flex-direction: column; /* Stack pricing cards vertically on smaller screens */
+    align-items: center; /* Center-align pricing cards on smaller screens */
+  }
+
+  .pricing-card {
+    max-width: 100%; /* Expand pricing card width on smaller screens */
+  }
+}

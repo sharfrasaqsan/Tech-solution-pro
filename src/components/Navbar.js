@@ -1,7 +1,7 @@
 // src/components/Navbar.js
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./styles.css"; // Import custom CSS for Navbar styling
+import "./navbar.css"; // Import custom CSS for Navbar styling
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSignInAlt, faUserPlus } from "@fortawesome/free-solid-svg-icons";
 

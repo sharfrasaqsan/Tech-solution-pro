@@ -1,12 +1,14 @@
 // src/components/AboutUs.js
 import React from "react";
-import "./styles.css"; // Import custom CSS for AboutUs styling
+import "./aboutus.css"; // Import custom CSS for AboutUs styling
 
 function AboutUs() {
   return (
     <section className="about-us">
       <div className="container">
-        <div className="row">
+        <div className="row align-items-center">
+          {" "}
+          {/* Add align-items-center class */}
           <div className="col-lg-6">
             <h2>About Tech Solution Pro</h2>
             <p>
@@ -34,10 +36,11 @@ function AboutUs() {
               ability to tackle complex challenges and turn ideas into reality.
             </p>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 image-site">
             <img
               src="https://multi-techno.com/wp-content/uploads/2022/03/LOOKING-FOR-THE-BEST-SOFTWARE-SOLUTIONS-COMPANY.png"
               alt="About Us"
+              className="img-fluid"
             />
           </div>
         </div>

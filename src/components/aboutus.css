@@ -1,0 +1,47 @@
+/* About Us */
+.about-us {
+  background-color: #f8f9fa; /* Background color of the section */
+  padding: 80px 0;
+  text-align: center;
+  position: relative; /* Add relative positioning to the container */
+}
+
+.about-us h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* Image Container */
+.image-container {
+  max-width: 100%; /* Ensure the image container doesn't exceed the screen width */
+  margin: 0 auto; /* Center-align the image container */
+  overflow: hidden; /* Hide overflowing parts of the image */
+}
+
+/* Responsive Image */
+.image-container img {
+  width: 100%; /* Make the image 100% width of its container */
+  height: auto; /* Allow the image's height to adjust proportionally */
+  display: block; /* Remove any extra spacing or border around the image */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .about-us {
+    padding: 60px 0; /* Adjust padding for smaller screens */
+  }
+
+  .about-us h2 {
+    font-size: 1.5rem; /* Reduce font size for smaller screens */
+  }
+
+  .about-us p {
+    font-size: 14px; /* Reduce font size for smaller screens */
+  }
+}

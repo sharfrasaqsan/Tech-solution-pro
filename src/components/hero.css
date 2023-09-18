@@ -1,0 +1,40 @@
+/* Hero */
+.hero {
+  color: #fff; /* Text color */
+  padding: 200px 0;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn-info {
+  margin-right: 30px;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 100px 0;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 125px 10px;
+  }
+}
