@@ -13,7 +13,7 @@ function Newsletter() {
         </p>
         <div className="newsletter-form">
           <form>
-            <div className="form-group">
+            <div className="form-group-news">
               <input
                 type="email"
                 id="email"

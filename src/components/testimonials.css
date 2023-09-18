@@ -1,16 +1,15 @@
-/* testimonials.css */
 .testimonials {
   background-color: #f8f8f8;
   padding: 60px 0;
 }
 
-.container {
-  max-width: 1200px;
+.container-test {
+  max-width: 960px; /* Adjust the max-width to your desired value */
   margin: 0 auto;
   text-align: center;
 }
 
-h2 {
+.testimonials h2 {
   font-size: 28px;
   color: #333;
   margin-bottom: 40px;
@@ -18,13 +17,13 @@ h2 {
 
 .slick-slider {
   margin: 0 auto;
-  max-width: 1024px;
+  max-width: 90%;
 }
 
 /* Customize dot styling */
 .slick-dots {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 0;
 }
 
 .slick-dots li {
@@ -66,7 +65,7 @@ h2 {
 .testimonial-item {
   background-color: #fff;
   padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .testimonial-text {
@@ -91,7 +90,7 @@ h2 {
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
-  .container {
+  .container-test {
     padding: 0 20px;
   }
 

@@ -66,6 +66,13 @@ button[type="submit"]:hover {
   outline: 1px solid #fff;
 }
 
+.form-group-news {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: nowrap;
+}
+
 /* Responsive styles */
 @media screen and (max-width: 768px) {
   h2 {
@@ -83,5 +90,10 @@ button[type="submit"]:hover {
   input[type="email"] {
     margin-right: 0;
     margin-bottom: 10px;
+  }
+
+  .form-group-news {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }

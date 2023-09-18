@@ -58,7 +58,7 @@ function Testimonials() {
 
   return (
     <section className="testimonials">
-      <div className="container">
+      <div className="container-test">
         <h2>What Our Clients Say</h2>
         <Slider {...settings}>
           {testimonialsData.map((testimonial, index) => (
