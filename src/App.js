@@ -1,4 +1,3 @@
-// src/App.js
 import React from "react";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./App.css";
@@ -23,8 +22,8 @@ function App() {
       <Blog />
       <Pricing />
       <Testimonials />
-      <Newsletter />
       <Contact />
+      <Newsletter />
       <Footer />
     </div>
   );

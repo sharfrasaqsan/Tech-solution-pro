@@ -1,6 +1,7 @@
 // src/components/HeroSection.js
 import React from "react";
-import "./hero.css"; // Import custom CSS for HeroSection styling
+import "./hero.css";
+import AboutUs from "../pages/about";
 
 function HeroSection() {
   return (
@@ -23,10 +24,10 @@ function HeroSection() {
               specializes in creating cutting-edge software tailored to your
               unique needs.
             </p>
-            <a href="/about" className="btn btn-info">
+            <a href={AboutUs} className="btn btn-info">
               Learn More
             </a>
-            <a href="/contact" className="btn btn-outline-info">
+            <a href="#contact" className="btn btn-outline-info">
               Contact Us
             </a>
           </div>

@@ -19,6 +19,7 @@ function Newsletter() {
                 id="email"
                 name="email"
                 placeholder="Enter your email address"
+                className="email-news"
                 required
               />
               <button type="submit">Subscribe</button>

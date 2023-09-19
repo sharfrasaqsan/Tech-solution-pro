@@ -1,7 +1,7 @@
 /* src/components/contact.css */
 
 .contact {
-  background-color: #f8f9fa;
+  background-color: #220e3f;
   padding: 80px 0;
   text-align: center;
 }
@@ -9,12 +9,13 @@
 .contact h2 {
   font-size: 30px;
   margin-bottom: 20px;
-  color: #333;
+  color: #fff;
+  font-weight: bold;
 }
 
 .contact p {
   font-size: 16px;
-  color: #333;
+  color: #fff;
   margin-bottom: 30px;
 }
 
@@ -54,18 +55,20 @@
 }
 
 .contact-form button[type="submit"] {
-  background-color: #007bff;
-  color: #fff;
+  background-color: #fff;
+  color: #220e3f;
   font-size: 16px;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  outline: 2px solid #220e3f;
   transition: background-color 0.3s ease;
 }
 
 .contact-form button[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #220e3f;
+  color: #fff;
 }
 
 .form-group {

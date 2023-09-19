@@ -51,11 +51,6 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/pricing">
-                Testimonials
-              </a>
-            </li>
-            <li className="nav-item">
               <a className="nav-link" href="#contact">
                 Contact us
               </a>
