@@ -4,7 +4,7 @@ import "./aboutus.css"; // Import custom CSS for AboutUs styling
 
 function AboutUs() {
   return (
-    <section className="about-us">
+    <section className="about-us" id="about">
       <div className="container">
         <div className="row align-items-center">
           {" "}

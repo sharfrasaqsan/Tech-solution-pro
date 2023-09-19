@@ -23,7 +23,7 @@ function HeroSection() {
               specializes in creating cutting-edge software tailored to your
               unique needs.
             </p>
-            <a href="#" className="btn btn-info">
+            <a href="/" className="btn btn-info">
               Learn More
             </a>
             <a href="#contact" className="btn btn-outline-info">

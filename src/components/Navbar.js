@@ -2,8 +2,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./navbar.css"; // Import custom CSS for Navbar styling
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSignInAlt, faUserPlus } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   return (
@@ -41,28 +39,18 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/blog">
+              <a className="nav-link" href="#blog">
                 Blog
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/pricing">
+              <a className="nav-link" href="#pricing">
                 Pricing
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contact">
                 Contact us
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/login">
-                <FontAwesomeIcon icon={faSignInAlt} /> Login
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/signup">
-                <FontAwesomeIcon icon={faUserPlus} /> Signup
               </a>
             </li>
           </ul>

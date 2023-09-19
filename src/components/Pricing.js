@@ -5,7 +5,7 @@ import { FaCheck, FaTimes } from "react-icons/fa"; // Import Font Awesome icons
 
 function Pricing() {
   return (
-    <section className="pricing">
+    <section className="pricing" id="pricing">
       <div className="container">
         <h2>Choose Your Plan</h2>
         <div className="pricing-cards">

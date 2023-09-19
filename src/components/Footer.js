@@ -21,7 +21,7 @@ function Footer() {
               assist you.
             </p>
             <p>
-              <strong>Email:</strong> info@yourlogo.com
+              <strong>Email:</strong> contact@techsolutionpro.com
             </p>
             <p>
               <strong>Phone:</strong> +1 (123) 456-7890

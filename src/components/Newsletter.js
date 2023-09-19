@@ -1,8 +1,15 @@
-// src/components/Newsletter.js
-import React from "react";
-import "./newsletter.css"; // Import custom CSS for Newsletter section styling
+import React, { useState } from "react";
+import "./newsletter.css";
 
 function Newsletter() {
+  const [email, setEmail] = useState("");
+
+  const handleSubscribe = (e) => {
+    e.preventDefault();
+    alert("Subscribed with email: " + email);
+    setEmail("");
+  };
+
   return (
     <section className="newsletter">
       <div className="container">
@@ -12,7 +19,7 @@ function Newsletter() {
           subscribing to our newsletter.
         </p>
         <div className="newsletter-form">
-          <form>
+          <form onSubmit={handleSubscribe}>
             <div className="form-group-news">
               <input
                 type="email"
@@ -21,6 +28,8 @@ function Newsletter() {
                 placeholder="Enter your email address"
                 className="email-news"
                 required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
               />
               <button type="submit">Subscribe</button>
             </div>

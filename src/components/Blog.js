@@ -4,7 +4,7 @@ import "./blog.css"; // Import custom CSS for Blog styling
 
 function Blog() {
   return (
-    <section className="blog">
+    <section className="blog" id="blog">
       <div className="container">
         <h2>Latest Blog Posts</h2>
         <div className="blog-posts">
