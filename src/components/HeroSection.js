@@ -1,7 +1,6 @@
 // src/components/HeroSection.js
 import React from "react";
 import "./hero.css";
-import AboutUs from "../pages/about";
 
 function HeroSection() {
   return (
@@ -24,7 +23,7 @@ function HeroSection() {
               specializes in creating cutting-edge software tailored to your
               unique needs.
             </p>
-            <a href={AboutUs} className="btn btn-info">
+            <a href="#" className="btn btn-info">
               Learn More
             </a>
             <a href="#contact" className="btn btn-outline-info">
